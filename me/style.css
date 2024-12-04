@@ -1,0 +1,312 @@
+/*body html everything*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+img {
+    border: solid 2px whitesmoke
+}
+
+*:hover {
+    transition: 200ms;
+}
+
+#move {
+    background: radial-gradient(#48ff0059,
+            #0081775e);
+    height: 50px;
+    aspect-ratio: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    border-radius: 100px;
+    background-color: blur(100px);
+    z-index: -1;
+}
+
+/*head*/
+#first {
+    width: 99vw;
+    height: 90vh;
+}
+
+.top {
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.top h1 {
+    font-size: 2.6rem;
+    font-weight: lighter;
+    margin: auto;
+}
+
+.top a {
+    width: 10vw;
+    border-radius: 5px;
+    border: solid 1px rgba(240, 248, 255, 0);
+    height: 7vh;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    font-size: larger;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.top a:last-child {
+    margin-right: 20px;
+}
+
+.top a:hover {
+    transition: 200ms;
+    font-size: 1.3rem;
+    color: white;
+    width: 11vw;
+    border: solid 1px rgb(240, 248, 255);
+}
+
+.main {
+    width: 99vw;
+    display: flex;
+    height: 69vh;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+}
+
+.main img:hover {
+    transform: scale(1.05);
+    transition: 200ms;
+    border: silver 2px solid;
+}
+
+.main p {
+    width: 30vw;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.main p:hover {
+    transition: 200ms;
+
+    width: 32vw;
+    border: 1px silver solid;
+}
+
+.main button {
+    display: inline;
+}
+
+
+
+/*music*/
+#second {
+    height: 100vh;
+}
+
+.head-music {
+    width: 60vw;
+    height: 10vh;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-music i {
+    font-size: 3rem;
+}
+
+.head-music h1 {
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.music-cards {
+    display: grid;
+    height: 64vh;
+    gap: 30px;
+    margin: 4vw 10vw 10vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cards {
+    border: solid 1px whitesmoke;
+    border-radius: 5px;
+}
+
+.cards button {
+    position: relative;
+    left: 3vw;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    height: 5vh;
+    font-size: large;
+    width: 6vw;
+}
+
+.cards h2 p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cards h2 {
+    position: relative;
+    left: 1.7vw;
+}
+
+.cards p {
+    width: 20vw;
+    font-size: 1.2rem;
+    position: relative;
+    left: 2.7vw;
+}
+
+.cards:hover {
+    transform: scale(1.05);
+    border: 2px solid whitesmoke;
+}
+
+
+/*books*/
+.third {
+    height: 90vh;
+}
+
+.head-books {
+    width: 60vw;
+    height: 10vh;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-books i {
+    font-size: 3rem;
+}
+
+.head-books h1 {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.aaa {
+    width: 99vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aaa p {
+    font-size: 1.5rem;
+    width: 70vw;
+}
+
+.books img {
+    border: none;
+}
+
+.books img:hover {
+    transform: scale(1.05);
+}
+
+.aa {
+    width: inherit;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.aa li {
+    list-style: circle;
+}
+
+.list-div {
+    border: 1px solid whitesmoke;
+    padding: 2vw;
+    font-size: 1.2rem;
+    width: 20vw;
+    position: relative;
+    top: 20px;
+}
+
+.list-div :hover {
+    transform: scale(1.1);
+}
+
+/*contact*/
+.eeh img {
+    width: 25vw;
+}
+
+.eeh {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+
+.aah {
+    width: 50vw;
+    position: relative;
+    left: 13vw;
+}
+
+#fourth {
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a {
+    width: 30vw;
+    height: 7vh;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid whitesmoke;
+    background-color: black;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.b {
+    width: 30vw;
+    height: 25vh;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid whitesmoke;
+    background-color: black;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.v {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
